@@ -1,0 +1,101 @@
+#text,
+span {
+  color: black;
+}
+.miniheader {
+  background-color: rgb(247, 231, 234);
+  color: red;
+
+  margin-left: -15px;
+  width: 1140px;
+  height: 24px;
+}
+.BankName {
+  color: rgb(245, 245, 245);
+  padding: 15px;
+  background: rgb(174, 188, 238);
+  background: radial-gradient(
+    circle,
+    rgba(174, 188, 238, 1) 0%,
+    rgba(148, 208, 233, 1) 100%
+  );
+  border-radius: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.registerbox {
+  background: rgb(203, 174, 238);
+  background: radial-gradient(
+    circle,
+    rgba(203, 174, 238, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  width: 20%;
+  height: 10%;
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+.register-button,
+.login-button {
+  display: flex;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+.loginbox {
+  background: rgb(203, 174, 238);
+  background: radial-gradient(
+    circle,
+    rgba(203, 174, 238, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  width: 20%;
+  height: 10%;
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+.mainbg {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  margin-top: 20px;
+}
+.applyline {
+  background-color: rgb(247, 231, 234);
+  color: red;
+
+  margin-left: 100px;
+  width: 500px;
+  height: 20px;
+}
+
+h5 {
+  color: whitesmoke;
+}
+
+.textitems {
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+#para {
+  color: blue;
+}
+.right-img {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 200px;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 27%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+}

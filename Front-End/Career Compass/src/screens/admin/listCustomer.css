@@ -1,0 +1,32 @@
+#cards{
+    background-color: pink;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  /* Style for table headers */
+  th {
+    border: 2px solid black;
+    color: black;
+    text-align: left;
+    padding: 3px;
+  }
+  
+  /* Style for table cells */
+  td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+  }
+  
+  /* Alternate row background color */
+  tr:nth-child(even) {
+    background-color: #f1f2f3;
+  }
+  

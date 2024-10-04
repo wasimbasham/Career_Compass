@@ -1,0 +1,39 @@
+input {
+  width: 70px;
+  height: 50px;
+}
+.buttonbo {
+  width: 100px;
+  color: aliceblue;
+  background-color: rgb(62, 139, 232);
+  padding: 10px;
+  margin: 4px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 10px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.Button {
+  display: flex;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* Style for table headers */
+th,td,tr {
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  padding: 1px;
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+  background-color: #f1f2f3;
+}

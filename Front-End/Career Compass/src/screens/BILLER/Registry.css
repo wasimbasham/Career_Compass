@@ -1,0 +1,77 @@
+.registry {
+  background-image: "../src/Components/images/bg_image.jpeg";
+}
+
+.registry-field {
+  border: 4px solid black;
+  background-image: "./src/Components/images/bg_image.jpeg";
+  background-color: lightgray;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  padding-left: 20ch;
+}
+
+.state-body{
+  background-color: lightgray;
+  border: 4px solid black;
+  padding-bottom: 10px;
+}
+.biller-statement-body{
+  border: 4px solid black;
+  background-color: lightgrey;
+  padding-top: 10px;
+  width: auto;
+  
+}
+.registry-statement {
+  border: 4px solid black;
+  background-image: "./src/Components/images/bg_image.jpeg";
+  background-color: rgb(19, 87, 126);
+  padding-bottom: 20px;
+  width: 105%;
+}
+.biller-Select {
+  background-color: white;
+  width: 200px;
+}
+
+.cons-number {
+  padding-bottom: 15px;
+  width: 200px;
+}
+
+.biller-registry-body {
+  background-image: "./images/bg_image.jpeg";
+  height: 100%;
+}
+
+.btn {
+  padding: 10px;
+}
+
+
+.myButton {
+	box-shadow:inset 50px 50px 0px 50px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:20px;
+	font-weight:bold;
+	padding:18px 38px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
